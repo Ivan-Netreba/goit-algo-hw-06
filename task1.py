@@ -47,8 +47,8 @@ class Record:
                 if phone.value == old_number:
                     phone.value = new_number
                     break
-                else:
-                    raise ValueError
+            else:
+                raise ValueError
         else:
             raise ValueError
 
